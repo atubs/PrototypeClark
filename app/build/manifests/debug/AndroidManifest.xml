@@ -1,0 +1,15 @@
+<!-- From: file:/C:/Users/Jonathan/Documents/Android_Studio/ClarkHallPubRewards/app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.clarkhallpubrewards">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@android:style/Theme.Holo">
+        <activity android:label="@string/app_name" android:name="com.example.clarkhallpubrewards.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
