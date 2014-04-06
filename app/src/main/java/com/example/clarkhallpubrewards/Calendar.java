@@ -7,12 +7,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Calender extends ActionBarActivity {
+public class Calendar extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calender);
+        setTitle("Calendar");
     }
 
 

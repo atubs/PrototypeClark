@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 
     public void openCalender (View view) {
         //Open the calender screen
-        Intent intent = new Intent(this, Calender.class);
+        Intent intent = new Intent(this, Calendar.class);
         startActivity(intent);
     }
 

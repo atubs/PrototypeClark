@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.clarkhallpubrewards.Calender"
+            android:name=".Calendar"
             android:label="@string/title_activity_calender"
             android:parentActivityName="com.example.clarkhallpubrewards.MainActivity" >
             <meta-data
