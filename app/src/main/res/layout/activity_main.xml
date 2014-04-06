@@ -6,24 +6,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:background="@color/black">
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/redeem1"
+        android:src="@drawable/redeem"
         android:background="@android:color/transparent"
-        android:layout_marginTop="56dp"
+        android:id="@+id/redeemButton"
+        android:onClick="openRedeem"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageButton" />
+        android:layout_marginTop="35dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/dec"
+        android:src="@drawable/dec2"
+        android:background="@android:color/transparent"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calender1"
+        android:background="@android:color/transparent"
+        android:id="@+id/calenderButton"
+        android:onClick="openCalender"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp" />
 
 </RelativeLayout>
