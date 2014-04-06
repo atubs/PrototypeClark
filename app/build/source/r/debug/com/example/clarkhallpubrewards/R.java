@@ -934,9 +934,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int about=0x7f020057;
-        public static final int about1=0x7f020058;
-        public static final int calender1=0x7f020059;
+        public static final int about1=0x7f020057;
+        public static final int calender1=0x7f020058;
+        public static final int counter=0x7f020059;
         public static final int dec2=0x7f02005a;
         public static final int gcalender=0x7f02005b;
         public static final int gcalender1=0x7f02005c;
@@ -944,9 +944,10 @@ containing a value of this type.
         public static final int icon1=0x7f02005e;
         public static final int logo=0x7f02005f;
         public static final int redeem=0x7f020060;
+        public static final int words=0x7f020061;
     }
     public static final class id {
-        public static final int action_about=0x7f090041;
+        public static final int action_about=0x7f090043;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090014;
         public static final int action_bar_container=0x7f09001b;
@@ -958,7 +959,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090015;
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f090040;
+        public static final int action_settings=0x7f090042;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f09000a;
@@ -1007,6 +1008,8 @@ containing a value of this type.
         public static final int split_action_bar=0x7f09001e;
         public static final int submit_area=0x7f090039;
         public static final int tabMode=0x7f090002;
+        public static final int textViewNumber=0x7f090041;
+        public static final int textViewVisits=0x7f090040;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
         public static final int up=0x7f090021;

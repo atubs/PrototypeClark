@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class Redeem extends ActionBarActivity {
@@ -13,6 +14,13 @@ public class Redeem extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_redeem);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null){
+            int visits = extras.getInt("VISIT_VALUE");
+            TextView textView = (TextView) findViewById(R.id.textViewNumber);
+            textView.setText (visits+"");
+        }
     }
 
 

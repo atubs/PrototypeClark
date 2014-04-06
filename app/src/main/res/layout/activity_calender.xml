@@ -13,10 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/gcalender"
+        android:src="@drawable/gcalender1"
+        android:layout_marginTop="52dp"
+        android:scaleType="center"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"

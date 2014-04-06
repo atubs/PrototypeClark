@@ -18,7 +18,8 @@
         android:onClick="openRedeem"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"/>
+        android:layout_marginTop="35dp"
+        android:scaleType="center" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -27,7 +28,8 @@
         android:src="@drawable/dec2"
         android:background="@android:color/transparent"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:scaleType="center" />
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,5 +40,19 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewVisits"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:text="55"
+        android:phoneNumber="false"
+        android:textSize="55dp" />
 
 </RelativeLayout>

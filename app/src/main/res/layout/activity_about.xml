@@ -15,5 +15,6 @@
         android:id="@+id/imageView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/about1"/>
+        android:src="@drawable/about1"
+        android:scaleType="center" />
 </RelativeLayout>

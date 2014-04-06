@@ -6,13 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.Intent;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
+
+    int visitCounter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView textView = (TextView) findViewById(R.id.textViewVisits);
+        textView.setText (visitCounter+"");
     }
 
 
@@ -32,6 +38,7 @@ public class MainActivity extends Activity {
     public void openRedeem (View view){
         //Open the redeem screen
         Intent intent = new Intent(this, Redeem.class);
+        intent.putExtra("VISIT_VALUE",visitCounter);
         startActivity(intent);
     }
 
@@ -61,4 +68,5 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
     }
+
 }
